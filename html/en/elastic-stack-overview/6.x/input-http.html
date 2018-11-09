@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -687,11 +723,11 @@ Stats</a> API and enables the <code class="literal">human</code> attribute:</p><
       "port" : 9200,
       "path" : "/_cluster/stats",
       "params" : {
-        "human" : "true" <a id="CO18-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+        "human" : "true" <a id="CO17-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
       }
     }
   }
-}</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO18-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+}</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO17-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Enabling this attribute returns the <code class="literal">bytes</code> values in the response in human
     readable format.
 </p></td></tr></table></div></div><div class="section"><div class="titlepage"><div><div><h3 class="title"><a id="input-http-auth-basic-example"></a>Calling External Web Services<a href="https://github.com/elastic/elasticsearch/edit/6.x/x-pack/docs/en/watcher/input/http.asciidoc" class="edit_me" title="Edit this page on GitHub" rel="nofollow">edit</a></h3></div></div></div><p>You can use <code class="literal">http</code> input to get data from any external web service. The <code class="literal">http</code>
@@ -870,6 +906,12 @@ specifying the <code class="literal">path</code>, <code class="literal">params</
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

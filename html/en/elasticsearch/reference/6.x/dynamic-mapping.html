@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -642,8 +678,8 @@ Not what you want? See the
 out of your way and let you start exploring your data as quickly as possible.
 To index a document, you don’t have to first create an index, define a mapping
 type, and define your fields — you can just index a document and the index,
-type, and fields will spring to life automatically:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">PUT data/_doc/1 <a id="CO300-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
-{ "count": 5 }</pre></div><div class="console_widget" data-snippet="snippets/dynamic-mapping/1.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO300-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+type, and fields will spring to life automatically:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">PUT data/_doc/1 <a id="CO299-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+{ "count": 5 }</pre></div><div class="console_widget" data-snippet="snippets/dynamic-mapping/1.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO299-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Creates the <code class="literal">data</code> index, the <code class="literal">_doc</code> mapping type, and a field
     called <code class="literal">count</code> with datatype <code class="literal">long</code>.
 </p></td></tr></table></div><p>The automatic detection and addition of new fields is called
@@ -764,6 +800,12 @@ automatically or explicitly.</p></div></div></div><div class="navfooter"><span c
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

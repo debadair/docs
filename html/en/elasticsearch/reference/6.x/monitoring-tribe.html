@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -650,18 +686,18 @@ tribe:
   c1:
     cluster.name: cluster1
     discovery.zen.ping.unicast.hosts: [ "cluster1-node1:9300", "cluster1-node2:9300", "cluster1-node2:9300" ]
-    xpack.monitoring.enabled: true <a id="CO10-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+    xpack.monitoring.enabled: true <a id="CO9-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
   c2:
     cluster.name: cluster2
     discovery.zen.ping.unicast.hosts: [ "cluster2-node3:9300", "cluster2-node3:9300", "cluster2-node3:9300" ]
-    xpack.monitoring: <a id="CO10-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
+    xpack.monitoring: <a id="CO9-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
       enabled: true
       exporters:
         id1:
           type: http
-          host: [ "monitoring-cluster:9200" ]</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO10-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+          host: [ "monitoring-cluster:9200" ]</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO9-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Enable data collection from the tribe node using a Local Exporter.
-</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO10-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO9-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Enable data collection from the tribe node using an HTTP Exporter.
 </p></td></tr></table></div><p>When you enable data collection from the tribe node, it is included in both the
 node count and node list.</p></div><div class="navfooter"><span class="prev"><a href="config-monitoring-indices.html">
@@ -770,6 +806,12 @@ node count and node list.</p></div><div class="navfooter"><span class="prev"><a 
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

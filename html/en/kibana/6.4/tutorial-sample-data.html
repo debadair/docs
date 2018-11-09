@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -654,9 +690,8 @@ Discover the data
 Edit a visualization
 </li><li class="listitem">
 Inspect the data behind the scenes
-</li></ul></div><div class="note admon"><div class="icon"><img alt="Note" src="images/icons/note.png" /></div><div class="admon_content"><p>If security is enabled, you must have the <code class="literal">all</code> Kibana privilege.
-You must also have access to the <code class="literal">kibana_sample_data_flights</code> index with
-the <code class="literal">read</code>, <code class="literal">write,</code> and <code class="literal">manage</code> privileges. See <a class="ulink" href="https://www.elastic.co/guide/en/elastic-stack-overview/6.4/security-privileges.html" target="_top">Security Privileges</a>
+</li></ul></div><div class="note admon"><div class="icon"><img alt="Note" src="images/icons/note.png" /></div><div class="admon_content"><p>If security is enabled, you must have <code class="literal">read</code>, <code class="literal">write</code>, and <code class="literal">manage</code> privileges
+on the <code class="literal">kibana_sample_data_*</code> indices. See <a class="ulink" href="https://www.elastic.co/guide/en/elastic-stack-overview/6.4/security-privileges.html" target="_top">Security Privileges</a>
 for more information.</p></div></div></div><div class="navfooter"><span class="prev"><a href="getting-started.html">
               « 
               Getting Started</a>
@@ -763,6 +798,12 @@ for more information.</p></div></div></div><div class="navfooter"><span class="p
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

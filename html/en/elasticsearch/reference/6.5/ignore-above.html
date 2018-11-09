@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -646,24 +682,24 @@ For arrays of strings, <code class="literal">ignore_above</code> will be applied
       "properties": {
         "message": {
           "type": "keyword",
-          "ignore_above": 20 <a id="CO283-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+          "ignore_above": 20 <a id="CO282-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
         }
       }
     }
   }
 }
 
-PUT my_index/_doc/1 <a id="CO283-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
+PUT my_index/_doc/1 <a id="CO282-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
 {
   "message": "Syntax error"
 }
 
-PUT my_index/_doc/2 <a id="CO283-3"></a><span><img src="images/icons/callouts/3.png" alt="" /></span>
+PUT my_index/_doc/2 <a id="CO282-3"></a><span><img src="images/icons/callouts/3.png" alt="" /></span>
 {
   "message": "Syntax error with some long stacktrace"
 }
 
-GET _search <a id="CO283-4"></a><span><img src="images/icons/callouts/4.png" alt="" /></span>
+GET _search <a id="CO282-4"></a><span><img src="images/icons/callouts/4.png" alt="" /></span>
 {
   "aggs": {
     "messages": {
@@ -672,13 +708,13 @@ GET _search <a id="CO283-4"></a><span><img src="images/icons/callouts/4.png" alt
       }
     }
   }
-}</pre></div><div class="console_widget" data-snippet="snippets/ignore-above/1.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO283-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+}</pre></div><div class="console_widget" data-snippet="snippets/ignore-above/1.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO282-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 This field will ignore any string longer than 20 characters.
-</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO283-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO282-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 This document is indexed successfully.
-</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO283-3"><span><img src="images/icons/callouts/3.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO282-3"><span><img src="images/icons/callouts/3.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 This document will be indexed, but without indexing the <code class="literal">message</code> field.
-</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO283-4"><span><img src="images/icons/callouts/4.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO282-4"><span><img src="images/icons/callouts/4.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Search returns both documents, but only the first is present in the terms aggregation.
 </p></td></tr></table></div><div class="tip admon"><div class="icon"><img alt="Tip" src="images/icons/tip.png" /></div><div class="admon_content"><p>The <code class="literal">ignore_above</code> setting can be updated on
 existing fields using the <a class="link" href="indices-put-mapping.html" title="Put Mapping">PUT mapping API</a>.</p></div></div><p>This option is also useful for protecting against Lucene’s term byte-length
@@ -791,6 +827,12 @@ set the limit to <code class="literal">32766 / 4 = 8191</code> since UTF-8 chara
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

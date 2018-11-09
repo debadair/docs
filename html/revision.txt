@@ -1,13 +1,13 @@
 Repo: apm-agent-go
 --------------------------------------------------------------------------------
   APM Go Agent/docs/0.5               6cd2ec73   Merge pull request #237 from axw/0.5
-  APM Go Agent/docs/master            411b93c8   Merge pull request #308 from axw/tags-dedot
+  APM Go Agent/docs/master            33599453   Merge pull request #310 from axw/error-send-nil
 
 Repo: apm-agent-java
 --------------------------------------------------------------------------------
   APM Java Agent/docs/0.6             6c96aa8f   Add FAQ section (#270)
   APM Java Agent/docs/0.7             6a11961a   Add FAQ section (#270)
-  APM Java Agent/docs/master          dcae0ff7   Fix doc build error
+  APM Java Agent/docs/master          df716f43   change elasticsearch container with official elasticsearch testcontainers (#292)
 
 Repo: apm-agent-js-base
 --------------------------------------------------------------------------------
@@ -18,14 +18,14 @@ Repo: apm-agent-js-base
 Repo: apm-agent-nodejs
 --------------------------------------------------------------------------------
   APM Node.js Agent/docs/0.x          635eae53   0.12.0
-  APM Node.js Agent/docs/1.x          280ce282   1.14.0
-  APM Node.js Agent/docs/master       30fcb537   feat(apollo-server-express): set custom GraphQL transaction names (#648)
+  APM Node.js Agent/docs/1.x          1d526850   1.14.1
+  APM Node.js Agent/docs/master       1d526850   1.14.1
 
 Repo: apm-agent-python
 --------------------------------------------------------------------------------
   APM Python Agent/docs/1.x           06d23250   several enhancements for the jenkins docker-based setup (#144)
   APM Python Agent/docs/2.x           d4ecb653   Fix wrong user_id parameter for set_user_context function in docs (#266)
-  APM Python Agent/docs/master        a3f9ae97   docs: add frame context to tuning (#311)
+  APM Python Agent/docs/master        f28dcb92   adapt logging stringify tests to new API (#316)
 
 Repo: apm-agent-ruby
 --------------------------------------------------------------------------------
@@ -38,35 +38,35 @@ Repo: apm-server
   APM Overview/docs/6.1               e5bfd578   maintain changelog per minor release (#1365)
   APM Overview/docs/6.2               9cdb11b7   maintain changelog per minor release (#1364)
   APM Overview/docs/6.3               163b0778   maintain changelog per minor release (#1363)
-  APM Overview/docs/6.4               522ae8db   6.4.3: Docs and changelog version bump (#1519)
-  APM Overview/docs/6.5               58756ad3   Merge pull request #1529 from formgeist/backport/6.5/pr-1526
+  APM Overview/docs/6.4               04a4c4e1   Update beats framework to 89bf3b9 (#1525)
+  APM Overview/docs/6.5               2c46a291   Update beats framework to 46e4c3c (#1531)
   APM Overview/docs/guide/6.0         ae191ba5   Merge remote-tracking branch 'upstream/6.0' into 6.0
   APM Overview/docs/guide/6.1         e5bfd578   maintain changelog per minor release (#1365)
   APM Overview/docs/guide/6.2         9cdb11b7   maintain changelog per minor release (#1364)
   APM Overview/docs/guide/6.3         163b0778   maintain changelog per minor release (#1363)
-  APM Overview/docs/guide/6.4         522ae8db   6.4.3: Docs and changelog version bump (#1519)
-  APM Overview/docs/guide/6.5         58756ad3   Merge pull request #1529 from formgeist/backport/6.5/pr-1526
+  APM Overview/docs/guide/6.4         04a4c4e1   Update beats framework to 89bf3b9 (#1525)
+  APM Overview/docs/guide/6.5         2c46a291   Update beats framework to 46e4c3c (#1531)
   APM Overview/docs/guide/master      162be2f6   Merge pull request #1526 from formgeist/distributed-tracing-docs-update
   APM Overview/docs/master            162be2f6   Merge pull request #1526 from formgeist/distributed-tracing-docs-update
   APM Server Reference/CHANGELOG.asciidoc/6.0 ae191ba5   Merge remote-tracking branch 'upstream/6.0' into 6.0
   APM Server Reference/CHANGELOG.asciidoc/6.1 e5bfd578   maintain changelog per minor release (#1365)
   APM Server Reference/CHANGELOG.asciidoc/6.2 9cdb11b7   maintain changelog per minor release (#1364)
   APM Server Reference/CHANGELOG.asciidoc/6.3 163b0778   maintain changelog per minor release (#1363)
-  APM Server Reference/CHANGELOG.asciidoc/6.4 522ae8db   6.4.3: Docs and changelog version bump (#1519)
-  APM Server Reference/CHANGELOG.asciidoc/6.5 58756ad3   Merge pull request #1529 from formgeist/backport/6.5/pr-1526
+  APM Server Reference/CHANGELOG.asciidoc/6.4 04a4c4e1   Update beats framework to 89bf3b9 (#1525)
+  APM Server Reference/CHANGELOG.asciidoc/6.5 2c46a291   Update beats framework to 46e4c3c (#1531)
   APM Server Reference/CHANGELOG.asciidoc/master 162be2f6   Merge pull request #1526 from formgeist/distributed-tracing-docs-update
   APM Server Reference/changelogs/6.1 e5bfd578   maintain changelog per minor release (#1365)
   APM Server Reference/changelogs/6.2 9cdb11b7   maintain changelog per minor release (#1364)
   APM Server Reference/changelogs/6.3 163b0778   maintain changelog per minor release (#1363)
-  APM Server Reference/changelogs/6.4 522ae8db   6.4.3: Docs and changelog version bump (#1519)
-  APM Server Reference/changelogs/6.5 58756ad3   Merge pull request #1529 from formgeist/backport/6.5/pr-1526
+  APM Server Reference/changelogs/6.4 04a4c4e1   Update beats framework to 89bf3b9 (#1525)
+  APM Server Reference/changelogs/6.5 2c46a291   Update beats framework to 46e4c3c (#1531)
   APM Server Reference/changelogs/master 162be2f6   Merge pull request #1526 from formgeist/distributed-tracing-docs-update
   APM Server Reference/docs/6.0       ae191ba5   Merge remote-tracking branch 'upstream/6.0' into 6.0
   APM Server Reference/docs/6.1       e5bfd578   maintain changelog per minor release (#1365)
   APM Server Reference/docs/6.2       9cdb11b7   maintain changelog per minor release (#1364)
   APM Server Reference/docs/6.3       163b0778   maintain changelog per minor release (#1363)
-  APM Server Reference/docs/6.4       522ae8db   6.4.3: Docs and changelog version bump (#1519)
-  APM Server Reference/docs/6.5       58756ad3   Merge pull request #1529 from formgeist/backport/6.5/pr-1526
+  APM Server Reference/docs/6.4       04a4c4e1   Update beats framework to 89bf3b9 (#1525)
+  APM Server Reference/docs/6.5       2c46a291   Update beats framework to 46e4c3c (#1531)
   APM Server Reference/docs/master    162be2f6   Merge pull request #1526 from formgeist/distributed-tracing-docs-update
   Getting Started with Elastic APM/docs/6.0 ae191ba5   Merge remote-tracking branch 'upstream/6.0' into 6.0
   Getting Started with Elastic APM/docs/6.1 e5bfd578   maintain changelog per minor release (#1365)
@@ -94,23 +94,23 @@ Repo: beats
   Auditbeat Reference/CHANGELOG.asciidoc/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Auditbeat Reference/CHANGELOG.asciidoc/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Auditbeat Reference/CHANGELOG.asciidoc/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Auditbeat Reference/CHANGELOG.asciidoc/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Auditbeat Reference/CHANGELOG.asciidoc/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Auditbeat Reference/CHANGELOG.asciidoc/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Auditbeat Reference/CHANGELOG.asciidoc/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Auditbeat Reference/CHANGELOG.asciidoc/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Auditbeat Reference/auditbeat/6.0   26f59334   Fix anchor ID in docs (#7856)
   Auditbeat Reference/auditbeat/6.1   1ef2ae7e   Fix anchor ID in docs (#7857)
   Auditbeat Reference/auditbeat/6.2   0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Auditbeat Reference/auditbeat/6.3   f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Auditbeat Reference/auditbeat/6.4   89bf3b94   Bump version to 6.4.4 (#8779)
-  Auditbeat Reference/auditbeat/6.5   46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Auditbeat Reference/auditbeat/6.x   2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Auditbeat Reference/auditbeat/6.5   792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Auditbeat Reference/auditbeat/6.x   b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Auditbeat Reference/auditbeat/docs/6.0 26f59334   Fix anchor ID in docs (#7856)
   Auditbeat Reference/auditbeat/docs/6.1 1ef2ae7e   Fix anchor ID in docs (#7857)
   Auditbeat Reference/auditbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Auditbeat Reference/auditbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Auditbeat Reference/auditbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Auditbeat Reference/auditbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Auditbeat Reference/auditbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Auditbeat Reference/auditbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Auditbeat Reference/auditbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Auditbeat Reference/auditbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Auditbeat Reference/auditbeat/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Auditbeat Reference/auditbeat/module/6.0 26f59334   Fix anchor ID in docs (#7856)
@@ -118,57 +118,57 @@ Repo: beats
   Auditbeat Reference/auditbeat/module/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Auditbeat Reference/auditbeat/module/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Auditbeat Reference/auditbeat/module/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Auditbeat Reference/auditbeat/module/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Auditbeat Reference/auditbeat/module/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Auditbeat Reference/auditbeat/module/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Auditbeat Reference/auditbeat/module/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Auditbeat Reference/auditbeat/module/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Auditbeat Reference/auditbeat/scripts/6.0 26f59334   Fix anchor ID in docs (#7856)
   Auditbeat Reference/auditbeat/scripts/6.1 1ef2ae7e   Fix anchor ID in docs (#7857)
   Auditbeat Reference/auditbeat/scripts/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Auditbeat Reference/auditbeat/scripts/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Auditbeat Reference/auditbeat/scripts/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Auditbeat Reference/auditbeat/scripts/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Auditbeat Reference/auditbeat/scripts/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Auditbeat Reference/auditbeat/scripts/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Auditbeat Reference/auditbeat/scripts/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Auditbeat Reference/auditbeat/scripts/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Auditbeat Reference/libbeat/docs/6.0 26f59334   Fix anchor ID in docs (#7856)
   Auditbeat Reference/libbeat/docs/6.1 1ef2ae7e   Fix anchor ID in docs (#7857)
   Auditbeat Reference/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Auditbeat Reference/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Auditbeat Reference/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Auditbeat Reference/libbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Auditbeat Reference/libbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Auditbeat Reference/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Auditbeat Reference/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Auditbeat Reference/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Beats Developer Guide/docs/6.0      26f59334   Fix anchor ID in docs (#7856)
   Beats Developer Guide/docs/6.1      1ef2ae7e   Fix anchor ID in docs (#7857)
   Beats Developer Guide/docs/6.2      0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Beats Developer Guide/docs/6.3      f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Beats Developer Guide/docs/6.4      89bf3b94   Bump version to 6.4.4 (#8779)
-  Beats Developer Guide/docs/6.5      915ff371   Make sure the functionbeat.yml and the functionbeat.reference.yml (#8844) (#8888)
-  Beats Developer Guide/docs/6.x      cc1835f7   Cherry-pick #8889 to 6.x: Make functionbeat build process depends on linux/amd64 (#8904)
-  Beats Developer Guide/docs/master   29be6701   [Elasticsearch Monitoring] Add cluster_metadata to cluster_stats docs (#8445)
+  Beats Developer Guide/docs/6.5      792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Beats Developer Guide/docs/6.x      b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
+  Beats Developer Guide/docs/master   f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Beats Developer Guide/libbeat/docs/6.0 26f59334   Fix anchor ID in docs (#7856)
   Beats Developer Guide/libbeat/docs/6.1 1ef2ae7e   Fix anchor ID in docs (#7857)
   Beats Developer Guide/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Beats Developer Guide/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Beats Developer Guide/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Beats Developer Guide/libbeat/docs/6.5 915ff371   Make sure the functionbeat.yml and the functionbeat.reference.yml (#8844) (#8888)
-  Beats Developer Guide/libbeat/docs/6.x cc1835f7   Cherry-pick #8889 to 6.x: Make functionbeat build process depends on linux/amd64 (#8904)
-  Beats Developer Guide/libbeat/docs/master 29be6701   [Elasticsearch Monitoring] Add cluster_metadata to cluster_stats docs (#8445)
+  Beats Developer Guide/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Beats Developer Guide/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
+  Beats Developer Guide/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Beats Developer Guide/metricbeat/module/6.0 26f59334   Fix anchor ID in docs (#7856)
   Beats Developer Guide/metricbeat/module/6.1 1ef2ae7e   Fix anchor ID in docs (#7857)
   Beats Developer Guide/metricbeat/module/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Beats Developer Guide/metricbeat/module/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Beats Developer Guide/metricbeat/module/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Beats Developer Guide/metricbeat/module/6.5 915ff371   Make sure the functionbeat.yml and the functionbeat.reference.yml (#8844) (#8888)
-  Beats Developer Guide/metricbeat/module/6.x cc1835f7   Cherry-pick #8889 to 6.x: Make functionbeat build process depends on linux/amd64 (#8904)
-  Beats Developer Guide/metricbeat/module/master 29be6701   [Elasticsearch Monitoring] Add cluster_metadata to cluster_stats docs (#8445)
+  Beats Developer Guide/metricbeat/module/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Beats Developer Guide/metricbeat/module/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
+  Beats Developer Guide/metricbeat/module/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Beats Developer Guide/metricbeat/scripts/6.0 26f59334   Fix anchor ID in docs (#7856)
   Beats Developer Guide/metricbeat/scripts/6.1 1ef2ae7e   Fix anchor ID in docs (#7857)
   Beats Developer Guide/metricbeat/scripts/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Beats Developer Guide/metricbeat/scripts/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Beats Developer Guide/metricbeat/scripts/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Beats Developer Guide/metricbeat/scripts/6.5 915ff371   Make sure the functionbeat.yml and the functionbeat.reference.yml (#8844) (#8888)
-  Beats Developer Guide/metricbeat/scripts/6.x cc1835f7   Cherry-pick #8889 to 6.x: Make functionbeat build process depends on linux/amd64 (#8904)
-  Beats Developer Guide/metricbeat/scripts/master 29be6701   [Elasticsearch Monitoring] Add cluster_metadata to cluster_stats docs (#8445)
+  Beats Developer Guide/metricbeat/scripts/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Beats Developer Guide/metricbeat/scripts/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
+  Beats Developer Guide/metricbeat/scripts/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Beats Platform Reference/CHANGELOG.asciidoc/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Beats Platform Reference/CHANGELOG.asciidoc/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
   Beats Platform Reference/CHANGELOG.asciidoc/1.2 46a4c8c9   Remove link to Topbeat download page (#8366) (#8743)
@@ -185,8 +185,8 @@ Repo: beats
   Beats Platform Reference/CHANGELOG.asciidoc/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Beats Platform Reference/CHANGELOG.asciidoc/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Beats Platform Reference/CHANGELOG.asciidoc/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Beats Platform Reference/CHANGELOG.asciidoc/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Beats Platform Reference/CHANGELOG.asciidoc/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Beats Platform Reference/CHANGELOG.asciidoc/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Beats Platform Reference/CHANGELOG.asciidoc/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Beats Platform Reference/CHANGELOG.asciidoc/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Beats Platform Reference/libbeat/docs/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Beats Platform Reference/libbeat/docs/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -204,8 +204,8 @@ Repo: beats
   Beats Platform Reference/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Beats Platform Reference/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Beats Platform Reference/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Beats Platform Reference/libbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Beats Platform Reference/libbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Beats Platform Reference/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Beats Platform Reference/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Beats Platform Reference/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Filebeat Reference/CHANGELOG.asciidoc/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Filebeat Reference/CHANGELOG.asciidoc/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -223,8 +223,8 @@ Repo: beats
   Filebeat Reference/CHANGELOG.asciidoc/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Filebeat Reference/CHANGELOG.asciidoc/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Filebeat Reference/CHANGELOG.asciidoc/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Filebeat Reference/CHANGELOG.asciidoc/6.5 1e3d5faf   Cherry-pick #8785 to 6.5: Add documentation for filebeat.registry_flush (#8996)
-  Filebeat Reference/CHANGELOG.asciidoc/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Filebeat Reference/CHANGELOG.asciidoc/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Filebeat Reference/CHANGELOG.asciidoc/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Filebeat Reference/CHANGELOG.asciidoc/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Filebeat Reference/filebeat/1.0.1   b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Filebeat Reference/filebeat/1.1     799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -242,8 +242,8 @@ Repo: beats
   Filebeat Reference/filebeat/6.2     0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Filebeat Reference/filebeat/6.3     f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Filebeat Reference/filebeat/6.4     89bf3b94   Bump version to 6.4.4 (#8779)
-  Filebeat Reference/filebeat/6.5     1e3d5faf   Cherry-pick #8785 to 6.5: Add documentation for filebeat.registry_flush (#8996)
-  Filebeat Reference/filebeat/6.x     2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Filebeat Reference/filebeat/6.5     792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Filebeat Reference/filebeat/6.x     b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Filebeat Reference/filebeat/docs/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Filebeat Reference/filebeat/docs/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
   Filebeat Reference/filebeat/docs/1.2 46a4c8c9   Remove link to Topbeat download page (#8366) (#8743)
@@ -260,8 +260,8 @@ Repo: beats
   Filebeat Reference/filebeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Filebeat Reference/filebeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Filebeat Reference/filebeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Filebeat Reference/filebeat/docs/6.5 1e3d5faf   Cherry-pick #8785 to 6.5: Add documentation for filebeat.registry_flush (#8996)
-  Filebeat Reference/filebeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Filebeat Reference/filebeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Filebeat Reference/filebeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Filebeat Reference/filebeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Filebeat Reference/filebeat/master  f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Filebeat Reference/libbeat/docs/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
@@ -280,8 +280,8 @@ Repo: beats
   Filebeat Reference/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Filebeat Reference/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Filebeat Reference/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Filebeat Reference/libbeat/docs/6.5 1e3d5faf   Cherry-pick #8785 to 6.5: Add documentation for filebeat.registry_flush (#8996)
-  Filebeat Reference/libbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Filebeat Reference/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Filebeat Reference/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Filebeat Reference/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Heartbeat Reference/CHANGELOG.asciidoc/5.2 42e45a75   Fix docs link that was using current
   Heartbeat Reference/CHANGELOG.asciidoc/5.3 d593ae8b   Remove no_plugins option from tutorial (#5812)
@@ -359,8 +359,8 @@ Repo: beats
   Metricbeat Reference/CHANGELOG.asciidoc/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Metricbeat Reference/CHANGELOG.asciidoc/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Metricbeat Reference/CHANGELOG.asciidoc/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Metricbeat Reference/CHANGELOG.asciidoc/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Metricbeat Reference/CHANGELOG.asciidoc/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Metricbeat Reference/CHANGELOG.asciidoc/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Metricbeat Reference/CHANGELOG.asciidoc/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Metricbeat Reference/CHANGELOG.asciidoc/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Metricbeat Reference/libbeat/docs/5.0 52af68f4   Fix docs link that was using current
   Metricbeat Reference/libbeat/docs/5.1 1b89bb43   Fix docs link that was using current
@@ -374,8 +374,8 @@ Repo: beats
   Metricbeat Reference/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Metricbeat Reference/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Metricbeat Reference/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Metricbeat Reference/libbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Metricbeat Reference/libbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Metricbeat Reference/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Metricbeat Reference/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Metricbeat Reference/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Metricbeat Reference/metricbeat/5.0 52af68f4   Fix docs link that was using current
   Metricbeat Reference/metricbeat/5.1 1b89bb43   Fix docs link that was using current
@@ -389,8 +389,8 @@ Repo: beats
   Metricbeat Reference/metricbeat/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Metricbeat Reference/metricbeat/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Metricbeat Reference/metricbeat/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Metricbeat Reference/metricbeat/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Metricbeat Reference/metricbeat/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Metricbeat Reference/metricbeat/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Metricbeat Reference/metricbeat/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Metricbeat Reference/metricbeat/docs/5.0 52af68f4   Fix docs link that was using current
   Metricbeat Reference/metricbeat/docs/5.1 1b89bb43   Fix docs link that was using current
   Metricbeat Reference/metricbeat/docs/5.2 42e45a75   Fix docs link that was using current
@@ -403,8 +403,8 @@ Repo: beats
   Metricbeat Reference/metricbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Metricbeat Reference/metricbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Metricbeat Reference/metricbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Metricbeat Reference/metricbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Metricbeat Reference/metricbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Metricbeat Reference/metricbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Metricbeat Reference/metricbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Metricbeat Reference/metricbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Metricbeat Reference/metricbeat/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Metricbeat Reference/metricbeat/module/5.0 52af68f4   Fix docs link that was using current
@@ -419,8 +419,8 @@ Repo: beats
   Metricbeat Reference/metricbeat/module/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Metricbeat Reference/metricbeat/module/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Metricbeat Reference/metricbeat/module/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Metricbeat Reference/metricbeat/module/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Metricbeat Reference/metricbeat/module/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Metricbeat Reference/metricbeat/module/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Metricbeat Reference/metricbeat/module/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Metricbeat Reference/metricbeat/module/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Metricbeat Reference/metricbeat/scripts/5.0 52af68f4   Fix docs link that was using current
   Metricbeat Reference/metricbeat/scripts/5.1 1b89bb43   Fix docs link that was using current
@@ -434,8 +434,8 @@ Repo: beats
   Metricbeat Reference/metricbeat/scripts/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Metricbeat Reference/metricbeat/scripts/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Metricbeat Reference/metricbeat/scripts/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Metricbeat Reference/metricbeat/scripts/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Metricbeat Reference/metricbeat/scripts/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Metricbeat Reference/metricbeat/scripts/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Metricbeat Reference/metricbeat/scripts/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Metricbeat Reference/metricbeat/scripts/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Packetbeat Reference/CHANGELOG.asciidoc/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Packetbeat Reference/CHANGELOG.asciidoc/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -453,8 +453,8 @@ Repo: beats
   Packetbeat Reference/CHANGELOG.asciidoc/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Packetbeat Reference/CHANGELOG.asciidoc/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Packetbeat Reference/CHANGELOG.asciidoc/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Packetbeat Reference/CHANGELOG.asciidoc/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Packetbeat Reference/CHANGELOG.asciidoc/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Packetbeat Reference/CHANGELOG.asciidoc/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Packetbeat Reference/CHANGELOG.asciidoc/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Packetbeat Reference/CHANGELOG.asciidoc/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Packetbeat Reference/libbeat/docs/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Packetbeat Reference/libbeat/docs/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -472,8 +472,8 @@ Repo: beats
   Packetbeat Reference/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Packetbeat Reference/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Packetbeat Reference/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Packetbeat Reference/libbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Packetbeat Reference/libbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Packetbeat Reference/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Packetbeat Reference/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Packetbeat Reference/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Packetbeat Reference/packetbeat/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Packetbeat Reference/packetbeat/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -491,8 +491,8 @@ Repo: beats
   Packetbeat Reference/packetbeat/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Packetbeat Reference/packetbeat/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Packetbeat Reference/packetbeat/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Packetbeat Reference/packetbeat/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Packetbeat Reference/packetbeat/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Packetbeat Reference/packetbeat/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Packetbeat Reference/packetbeat/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Packetbeat Reference/packetbeat/docs/1.0.1 b68f1548   Remove link to Topbeat download page (#8366) (#8741)
   Packetbeat Reference/packetbeat/docs/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
   Packetbeat Reference/packetbeat/docs/1.2 46a4c8c9   Remove link to Topbeat download page (#8366) (#8743)
@@ -509,8 +509,8 @@ Repo: beats
   Packetbeat Reference/packetbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Packetbeat Reference/packetbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Packetbeat Reference/packetbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Packetbeat Reference/packetbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Packetbeat Reference/packetbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Packetbeat Reference/packetbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Packetbeat Reference/packetbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Packetbeat Reference/packetbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Packetbeat Reference/packetbeat/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Winlogbeat Reference/CHANGELOG.asciidoc/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
@@ -528,8 +528,8 @@ Repo: beats
   Winlogbeat Reference/CHANGELOG.asciidoc/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Winlogbeat Reference/CHANGELOG.asciidoc/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Winlogbeat Reference/CHANGELOG.asciidoc/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Winlogbeat Reference/CHANGELOG.asciidoc/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Winlogbeat Reference/CHANGELOG.asciidoc/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Winlogbeat Reference/CHANGELOG.asciidoc/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Winlogbeat Reference/CHANGELOG.asciidoc/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Winlogbeat Reference/CHANGELOG.asciidoc/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Winlogbeat Reference/libbeat/docs/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
   Winlogbeat Reference/libbeat/docs/1.2 46a4c8c9   Remove link to Topbeat download page (#8366) (#8743)
@@ -546,8 +546,8 @@ Repo: beats
   Winlogbeat Reference/libbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Winlogbeat Reference/libbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Winlogbeat Reference/libbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Winlogbeat Reference/libbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Winlogbeat Reference/libbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Winlogbeat Reference/libbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Winlogbeat Reference/libbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Winlogbeat Reference/libbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Winlogbeat Reference/winlogbeat/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
   Winlogbeat Reference/winlogbeat/1.2 46a4c8c9   Remove link to Topbeat download page (#8366) (#8743)
@@ -564,8 +564,8 @@ Repo: beats
   Winlogbeat Reference/winlogbeat/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Winlogbeat Reference/winlogbeat/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Winlogbeat Reference/winlogbeat/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Winlogbeat Reference/winlogbeat/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Winlogbeat Reference/winlogbeat/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Winlogbeat Reference/winlogbeat/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Winlogbeat Reference/winlogbeat/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Winlogbeat Reference/winlogbeat/docs/1.1 799a4e57   Remove link to Topbeat download page (#8366) (#8742)
   Winlogbeat Reference/winlogbeat/docs/1.2 46a4c8c9   Remove link to Topbeat download page (#8366) (#8743)
   Winlogbeat Reference/winlogbeat/docs/1.3 3c23d634   Remove link to Topbeat download page (#8366)
@@ -581,8 +581,8 @@ Repo: beats
   Winlogbeat Reference/winlogbeat/docs/6.2 0926f725   Remove beta label from add_kubernetes_metadata docs (#7907) (#7924)
   Winlogbeat Reference/winlogbeat/docs/6.3 f3b15984   Clone any cached data from docker and k8s (#8240) (#8245)
   Winlogbeat Reference/winlogbeat/docs/6.4 89bf3b94   Bump version to 6.4.4 (#8779)
-  Winlogbeat Reference/winlogbeat/docs/6.5 46e4c3ce   Cherry-pick #8977 to 6.5: Do not fails hard if dashboard are not found (#8982)
-  Winlogbeat Reference/winlogbeat/docs/6.x 2b636446   Fix macOS default log path for elasticsearch module based on brew paths (#8939) (#8978)
+  Winlogbeat Reference/winlogbeat/docs/6.5 792bbc14   Mute flaky heartbeat telemetry test (#8967) (#8971)
+  Winlogbeat Reference/winlogbeat/docs/6.x b09109c9   Mute flaky heartbeat telemetry test (#8967) (#8970)
   Winlogbeat Reference/winlogbeat/docs/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
   Winlogbeat Reference/winlogbeat/master f066f4f7   Move worker start before provider start as queue is bounded (#7926)
 
@@ -590,9 +590,9 @@ Repo: cloud
 --------------------------------------------------------------------------------
   Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/1.0 a564bf1c   Add 5.6.13 in the usual places (#22953)
   Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/1.1 06c6d7f1   Update docs for 5.6.13 and 6.4.3 (#22954)
-  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/2.0 3bf35018   Merge branch '1.1' into 2.0
+  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/cloud-enterprise/2.0 1e1f33f0   Revert broken ITs from 22703 (#22970)
   Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/1.1 06c6d7f1   Update docs for 5.6.13 and 6.4.3 (#22954)
-  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/2.0 3bf35018   Merge branch '1.1' into 2.0
+  Cloud Enterprise - Elastic Cloud on your Infrastructure/docs/shared/2.0 1e1f33f0   Revert broken ITs from 22703 (#22970)
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/release-ms-13 0320130a   What's New for Milestone 13 (#22917)
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/saas-release 2bbe8988   Note free trial range and add promotional rates (#22110)
   Elastic Cloud - Hosted Elasticsearch and Kibana/docs/saas/saas-release-heroku 0e39506f   changed exampple to example (#17632)
@@ -618,32 +618,32 @@ Repo: curator
 
 Repo: elasticsearch
 --------------------------------------------------------------------------------
-  Community Contributed Clients/docs/community-clients/master 19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
+  Community Contributed Clients/docs/community-clients/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/docs/Versions.asciidoc/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Elasticsearch Reference/docs/Versions.asciidoc/5.1 28f4e572   Introduce Gradle wrapper
   Elasticsearch Reference/docs/Versions.asciidoc/5.2 104b202e   Introduce Gradle wrapper
   Elasticsearch Reference/docs/Versions.asciidoc/5.3 e291e353   Introduce Gradle wrapper
   Elasticsearch Reference/docs/Versions.asciidoc/5.4 58267b13   Introduce Gradle wrapper
   Elasticsearch Reference/docs/Versions.asciidoc/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Elasticsearch Reference/docs/Versions.asciidoc/5.6 39eaf919   [DOCS] Added link to 5.6.13 RNs
+  Elasticsearch Reference/docs/Versions.asciidoc/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Elasticsearch Reference/docs/Versions.asciidoc/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Elasticsearch Reference/docs/Versions.asciidoc/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/Versions.asciidoc/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/Versions.asciidoc/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/docs/Versions.asciidoc/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/docs/Versions.asciidoc/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Elasticsearch Reference/docs/Versions.asciidoc/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/docs/Versions.asciidoc/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/Versions.asciidoc/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/Versions.asciidoc/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/docs/Versions.asciidoc/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/docs/painless/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Elasticsearch Reference/docs/painless/5.6 39eaf919   [DOCS] Added link to 5.6.13 RNs
+  Elasticsearch Reference/docs/painless/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Elasticsearch Reference/docs/painless/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Elasticsearch Reference/docs/painless/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/painless/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/painless/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/docs/painless/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/docs/painless/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Elasticsearch Reference/docs/painless/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/docs/painless/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/painless/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/painless/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/docs/painless/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/docs/reference/0.90 2f99ae3b   [DOCS] Remove unnecessary X-Pack reference
   Elasticsearch Reference/docs/reference/1.3 597499a9   [DOCS] Remove unnecessary X-Pack reference
   Elasticsearch Reference/docs/reference/1.4 83d44499   [DOCS] Remove unnecessary X-Pack reference
@@ -661,50 +661,50 @@ Repo: elasticsearch
   Elasticsearch Reference/docs/reference/5.3 e291e353   Introduce Gradle wrapper
   Elasticsearch Reference/docs/reference/5.4 58267b13   Introduce Gradle wrapper
   Elasticsearch Reference/docs/reference/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Elasticsearch Reference/docs/reference/5.6 39eaf919   [DOCS] Added link to 5.6.13 RNs
+  Elasticsearch Reference/docs/reference/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Elasticsearch Reference/docs/reference/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Elasticsearch Reference/docs/reference/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/reference/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/reference/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/docs/reference/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/docs/reference/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Elasticsearch Reference/docs/reference/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/docs/reference/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/reference/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/reference/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/docs/reference/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/docs/src/test/cluster/config/5.3 e291e353   Introduce Gradle wrapper
   Elasticsearch Reference/docs/src/test/cluster/config/5.4 58267b13   Introduce Gradle wrapper
   Elasticsearch Reference/docs/src/test/cluster/config/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Elasticsearch Reference/docs/src/test/cluster/config/5.6 39eaf919   [DOCS] Added link to 5.6.13 RNs
+  Elasticsearch Reference/docs/src/test/cluster/config/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Elasticsearch Reference/docs/src/test/cluster/config/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Elasticsearch Reference/docs/src/test/cluster/config/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/src/test/cluster/config/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/docs/src/test/cluster/config/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/docs/src/test/cluster/config/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/docs/src/test/cluster/config/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Elasticsearch Reference/docs/src/test/cluster/config/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/docs/src/test/cluster/config/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/src/test/cluster/config/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/docs/src/test/cluster/config/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/docs/src/test/cluster/config/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/plugins/examples/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Elasticsearch Reference/plugins/examples/5.6 39eaf919   [DOCS] Added link to 5.6.13 RNs
+  Elasticsearch Reference/plugins/examples/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Elasticsearch Reference/plugins/examples/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Elasticsearch Reference/plugins/examples/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/plugins/examples/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Elasticsearch Reference/plugins/examples/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/plugins/examples/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/plugins/examples/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Elasticsearch Reference/plugins/examples/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/plugins/examples/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/plugins/examples/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/plugins/examples/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/plugins/examples/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/x-pack/docs/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/x-pack/docs/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/x-pack/docs/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Elasticsearch Reference/x-pack/docs/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/x-pack/docs/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
-  Elasticsearch Reference/x-pack/plugin/sql/qa/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Elasticsearch Reference/x-pack/plugin/sql/qa/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/x-pack/docs/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Elasticsearch Reference/x-pack/docs/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/x-pack/docs/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/x-pack/plugin/sql/qa/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Elasticsearch Reference/x-pack/plugin/sql/qa/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch Reference/x-pack/qa/sql/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Elasticsearch Reference/x-pack/qa/sql/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Elasticsearch Reference/x-pack/qa/sql/6.5 a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
+  Elasticsearch Reference/x-pack/qa/sql/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
   Elasticsearch Reference/x-pack/qa/sql/6.x b65e1026   Docs: Remove range notation from random score docs (#35093)
   Elasticsearch Reference/x-pack/qa/sql/master 6abddd8c   SQL: Optimizer rule for folding nullable expressions (#35080)
-  Elasticsearch Resiliency Status/docs/resiliency/master 19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
+  Elasticsearch Resiliency Status/docs/resiliency/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Elasticsearch 참조/docs/5.3           e291e353   Introduce Gradle wrapper
   Elasticsearch 참조/docs/5.4           58267b13   Introduce Gradle wrapper
   Elasticsearch 참조/docs/kr/reference/5.3 e291e353   Introduce Gradle wrapper
@@ -713,7 +713,7 @@ Repo: elasticsearch
   Elasticsearchリファレンス/docs/5.4        58267b13   Introduce Gradle wrapper
   Elasticsearchリファレンス/docs/jp/reference/5.3 e291e353   Introduce Gradle wrapper
   Elasticsearchリファレンス/docs/jp/reference/5.4 58267b13   Introduce Gradle wrapper
-  Groovy API/docs/Versions.asciidoc/master 19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
+  Groovy API/docs/Versions.asciidoc/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Groovy API/docs/groovy-api/0.90     2f99ae3b   [DOCS] Remove unnecessary X-Pack reference
   Groovy API/docs/groovy-api/1.3      597499a9   [DOCS] Remove unnecessary X-Pack reference
   Groovy API/docs/groovy-api/1.4      83d44499   [DOCS] Remove unnecessary X-Pack reference
@@ -725,29 +725,29 @@ Repo: elasticsearch
   Groovy API/docs/groovy-api/2.2      e42c0255   [DOCS] Remove unnecessary X-Pack reference
   Groovy API/docs/groovy-api/2.3      2cc67160   [DOCS] Remove unnecessary X-Pack reference
   Groovy API/docs/groovy-api/2.4      66de6c3b   [DOCS] Correct index/_settings filtering syntax
-  Groovy API/docs/groovy-api/master   19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
+  Groovy API/docs/groovy-api/master   c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Installation and Upgrade Guide/docs/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Installation and Upgrade Guide/docs/5.1 28f4e572   Introduce Gradle wrapper
   Installation and Upgrade Guide/docs/5.2 104b202e   Introduce Gradle wrapper
   Installation and Upgrade Guide/docs/5.3 e291e353   Introduce Gradle wrapper
   Installation and Upgrade Guide/docs/5.4 58267b13   Introduce Gradle wrapper
   Installation and Upgrade Guide/docs/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Installation and Upgrade Guide/docs/5.6 39eaf919   [DOCS] Added link to 5.6.13 RNs
+  Installation and Upgrade Guide/docs/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Installation and Upgrade Guide/docs/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Installation and Upgrade Guide/docs/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Installation and Upgrade Guide/docs/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Installation and Upgrade Guide/docs/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Installation and Upgrade Guide/docs/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
-  Installation and Upgrade Guide/docs/6.5 5926a860   [Docs] Add painless context details for bucket_selector (#35162)
-  Installation and Upgrade Guide/docs/6.x 81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Installation and Upgrade Guide/docs/master c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Installation and Upgrade Guide/docs/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Installation and Upgrade Guide/docs/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Installation and Upgrade Guide/docs/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.x 6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
+  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.0 e48db6fe   Emphasize that filesystem-level backups don't work (#33102)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.1 cf82c987   Emphasize that filesystem-level backups don't work (#33102)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.2 3553d219   Emphasize that filesystem-level backups don't work (#33102)
@@ -756,22 +756,22 @@ Repo: elasticsearch
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.5 f44d9e83   [DOCS] Added attributes for HLRC javadoc packages. (#34934)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/6.x 70846ea9   HLRC: Add security Create Token API (#34791)
   Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/documentation/master 6fd7ea71   HLRC: DRY up remaining CRUD docs (#34925)
-  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/master 93c2c604   Move compression config to ConnectionProfile (#35357)
+  Java API/client/rest-high-level/src/test/java/org/elasticsearch/client/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java API/docs/Versions.asciidoc/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Java API/docs/Versions.asciidoc/5.1 28f4e572   Introduce Gradle wrapper
   Java API/docs/Versions.asciidoc/5.2 104b202e   Introduce Gradle wrapper
   Java API/docs/Versions.asciidoc/5.3 e291e353   Introduce Gradle wrapper
   Java API/docs/Versions.asciidoc/5.4 58267b13   Introduce Gradle wrapper
   Java API/docs/Versions.asciidoc/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Java API/docs/Versions.asciidoc/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Java API/docs/Versions.asciidoc/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Java API/docs/Versions.asciidoc/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Java API/docs/Versions.asciidoc/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java API/docs/Versions.asciidoc/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java API/docs/Versions.asciidoc/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java API/docs/Versions.asciidoc/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Java API/docs/Versions.asciidoc/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java API/docs/Versions.asciidoc/6.x 6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java API/docs/Versions.asciidoc/master 93c2c604   Move compression config to ConnectionProfile (#35357)
+  Java API/docs/Versions.asciidoc/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java API/docs/Versions.asciidoc/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java API/docs/Versions.asciidoc/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java API/docs/Versions.asciidoc/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java API/docs/java-api/0.90         2f99ae3b   [DOCS] Remove unnecessary X-Pack reference
   Java API/docs/java-api/1.3          597499a9   [DOCS] Remove unnecessary X-Pack reference
   Java API/docs/java-api/1.4          83d44499   [DOCS] Remove unnecessary X-Pack reference
@@ -789,113 +789,113 @@ Repo: elasticsearch
   Java API/docs/java-api/5.3          e291e353   Introduce Gradle wrapper
   Java API/docs/java-api/5.4          58267b13   Introduce Gradle wrapper
   Java API/docs/java-api/5.5          b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Java API/docs/java-api/5.6          9a637419   Updated version to 5.6.13 (#35309)
+  Java API/docs/java-api/5.6          871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Java API/docs/java-api/6.0          0400d820   Docs: remove notes on sparsity. (#30905)
   Java API/docs/java-api/6.1          70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java API/docs/java-api/6.2          b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java API/docs/java-api/6.3          ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java API/docs/java-api/6.4          f2b558da   Updated version to 6.4.3 (#35308)
-  Java API/docs/java-api/6.5          d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java API/docs/java-api/6.x          6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java API/docs/java-api/master       93c2c604   Move compression config to ConnectionProfile (#35357)
-  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Java API/docs/java-api/6.4          4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java API/docs/java-api/6.5          fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java API/docs/java-api/6.x          dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java API/docs/java-api/master       c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.x 6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/master 93c2c604   Move compression config to ConnectionProfile (#35357)
+  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java API/modules/reindex/src/test/java/org/elasticsearch/client/documentation/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java API/server/src/test/java/org/elasticsearch/client/documentation/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java API/server/src/test/java/org/elasticsearch/client/documentation/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Java API/server/src/test/java/org/elasticsearch/client/documentation/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java API/server/src/test/java/org/elasticsearch/client/documentation/6.x 6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java API/server/src/test/java/org/elasticsearch/client/documentation/master 93c2c604   Move compression config to ConnectionProfile (#35357)
-  Java REST Client/client/5.6         9a637419   Updated version to 5.6.13 (#35309)
+  Java API/server/src/test/java/org/elasticsearch/client/documentation/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java API/server/src/test/java/org/elasticsearch/client/documentation/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java API/server/src/test/java/org/elasticsearch/client/documentation/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java API/server/src/test/java/org/elasticsearch/client/documentation/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java REST Client/client/5.6         871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Java REST Client/client/6.0         0400d820   Docs: remove notes on sparsity. (#30905)
   Java REST Client/client/6.1         70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java REST Client/client/6.2         b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java REST Client/client/6.3         ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java REST Client/client/6.4         f2b558da   Updated version to 6.4.3 (#35308)
-  Java REST Client/client/6.5         d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java REST Client/client/6.x         6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java REST Client/client/master      93c2c604   Move compression config to ConnectionProfile (#35357)
+  Java REST Client/client/6.4         4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java REST Client/client/6.5         fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java REST Client/client/6.x         dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java REST Client/client/master      c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java REST Client/docs/Versions.asciidoc/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Java REST Client/docs/Versions.asciidoc/5.1 28f4e572   Introduce Gradle wrapper
   Java REST Client/docs/Versions.asciidoc/5.2 104b202e   Introduce Gradle wrapper
   Java REST Client/docs/Versions.asciidoc/5.3 e291e353   Introduce Gradle wrapper
   Java REST Client/docs/Versions.asciidoc/5.4 58267b13   Introduce Gradle wrapper
   Java REST Client/docs/Versions.asciidoc/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Java REST Client/docs/Versions.asciidoc/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Java REST Client/docs/Versions.asciidoc/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Java REST Client/docs/Versions.asciidoc/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Java REST Client/docs/Versions.asciidoc/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java REST Client/docs/Versions.asciidoc/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java REST Client/docs/Versions.asciidoc/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java REST Client/docs/Versions.asciidoc/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Java REST Client/docs/Versions.asciidoc/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java REST Client/docs/Versions.asciidoc/6.x 6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java REST Client/docs/Versions.asciidoc/master 93c2c604   Move compression config to ConnectionProfile (#35357)
+  Java REST Client/docs/Versions.asciidoc/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java REST Client/docs/Versions.asciidoc/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java REST Client/docs/Versions.asciidoc/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java REST Client/docs/Versions.asciidoc/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Java REST Client/docs/java-rest/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Java REST Client/docs/java-rest/5.1 28f4e572   Introduce Gradle wrapper
   Java REST Client/docs/java-rest/5.2 104b202e   Introduce Gradle wrapper
   Java REST Client/docs/java-rest/5.3 e291e353   Introduce Gradle wrapper
   Java REST Client/docs/java-rest/5.4 58267b13   Introduce Gradle wrapper
   Java REST Client/docs/java-rest/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Java REST Client/docs/java-rest/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Java REST Client/docs/java-rest/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Java REST Client/docs/java-rest/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Java REST Client/docs/java-rest/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Java REST Client/docs/java-rest/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Java REST Client/docs/java-rest/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Java REST Client/docs/java-rest/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Java REST Client/docs/java-rest/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Java REST Client/docs/java-rest/6.x 6f693c26   HLRest: refactor put_user to utilize `User` object (#35188)
-  Java REST Client/docs/java-rest/master 93c2c604   Move compression config to ConnectionProfile (#35357)
+  Java REST Client/docs/java-rest/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Java REST Client/docs/java-rest/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Java REST Client/docs/java-rest/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Java REST Client/docs/java-rest/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Painless Scripting Language/docs/Versions.asciidoc/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Painless Scripting Language/docs/Versions.asciidoc/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Painless Scripting Language/docs/Versions.asciidoc/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Painless Scripting Language/docs/Versions.asciidoc/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Painless Scripting Language/docs/Versions.asciidoc/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Painless Scripting Language/docs/Versions.asciidoc/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Painless Scripting Language/docs/Versions.asciidoc/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Painless Scripting Language/docs/Versions.asciidoc/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Painless Scripting Language/docs/Versions.asciidoc/6.5 5926a860   [Docs] Add painless context details for bucket_selector (#35162)
-  Painless Scripting Language/docs/Versions.asciidoc/6.x b6b5ff30   Painless Context Doc: Add field context example
-  Painless Scripting Language/docs/Versions.asciidoc/master 7e144b31   Painless Context Doc: Add field context example (#35130)
+  Painless Scripting Language/docs/Versions.asciidoc/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Painless Scripting Language/docs/Versions.asciidoc/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Painless Scripting Language/docs/Versions.asciidoc/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Painless Scripting Language/docs/Versions.asciidoc/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Painless Scripting Language/docs/painless/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Painless Scripting Language/docs/painless/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Painless Scripting Language/docs/painless/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Painless Scripting Language/docs/painless/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Painless Scripting Language/docs/painless/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Painless Scripting Language/docs/painless/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Painless Scripting Language/docs/painless/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Painless Scripting Language/docs/painless/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Painless Scripting Language/docs/painless/6.5 5926a860   [Docs] Add painless context details for bucket_selector (#35162)
-  Painless Scripting Language/docs/painless/6.x b6b5ff30   Painless Context Doc: Add field context example
-  Painless Scripting Language/docs/painless/master 7e144b31   Painless Context Doc: Add field context example (#35130)
-  Perl API/docs/perl/master           19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
+  Painless Scripting Language/docs/painless/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Painless Scripting Language/docs/painless/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Painless Scripting Language/docs/painless/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Painless Scripting Language/docs/painless/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Perl API/docs/perl/master           c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Plugins and Integrations/buildSrc/src/main/resources/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Plugins and Integrations/buildSrc/src/main/resources/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Plugins and Integrations/buildSrc/src/main/resources/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Plugins and Integrations/buildSrc/src/main/resources/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Plugins and Integrations/buildSrc/src/main/resources/6.x 2f34b689   Add missing up-to-date configuration (#35255)
-  Plugins and Integrations/buildSrc/src/main/resources/master 5ae03195   Make version field names more meaningful  (#35334)
+  Plugins and Integrations/buildSrc/src/main/resources/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Plugins and Integrations/buildSrc/src/main/resources/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Plugins and Integrations/buildSrc/src/main/resources/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Plugins and Integrations/buildSrc/src/main/resources/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Plugins and Integrations/docs/Versions.asciidoc/5.0 c77f63e4   Grammar: "by geographically" → "geographically" (#28595)
   Plugins and Integrations/docs/Versions.asciidoc/5.1 28f4e572   Introduce Gradle wrapper
   Plugins and Integrations/docs/Versions.asciidoc/5.2 104b202e   Introduce Gradle wrapper
   Plugins and Integrations/docs/Versions.asciidoc/5.3 e291e353   Introduce Gradle wrapper
   Plugins and Integrations/docs/Versions.asciidoc/5.4 58267b13   Introduce Gradle wrapper
   Plugins and Integrations/docs/Versions.asciidoc/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Plugins and Integrations/docs/Versions.asciidoc/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Plugins and Integrations/docs/Versions.asciidoc/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Plugins and Integrations/docs/Versions.asciidoc/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Plugins and Integrations/docs/Versions.asciidoc/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Plugins and Integrations/docs/Versions.asciidoc/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Plugins and Integrations/docs/Versions.asciidoc/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Plugins and Integrations/docs/Versions.asciidoc/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Plugins and Integrations/docs/Versions.asciidoc/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Plugins and Integrations/docs/Versions.asciidoc/6.x 2f34b689   Add missing up-to-date configuration (#35255)
-  Plugins and Integrations/docs/Versions.asciidoc/master 5ae03195   Make version field names more meaningful  (#35334)
+  Plugins and Integrations/docs/Versions.asciidoc/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Plugins and Integrations/docs/Versions.asciidoc/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Plugins and Integrations/docs/Versions.asciidoc/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Plugins and Integrations/docs/Versions.asciidoc/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Plugins and Integrations/docs/plugins/1.7 6c302a4f   [DOCS] Remove unnecessary X-Pack reference
   Plugins and Integrations/docs/plugins/2.0 ba398c28   [DOCS] Remove unnecessary X-Pack reference
   Plugins and Integrations/docs/plugins/2.1 dcd0e885   [DOCS] Remove unnecessary X-Pack reference
@@ -908,27 +908,27 @@ Repo: elasticsearch
   Plugins and Integrations/docs/plugins/5.3 e291e353   Introduce Gradle wrapper
   Plugins and Integrations/docs/plugins/5.4 58267b13   Introduce Gradle wrapper
   Plugins and Integrations/docs/plugins/5.5 b51ac8a7   [Docs] Remove Swift plugin on 5.X banches (#34633)
-  Plugins and Integrations/docs/plugins/5.6 9a637419   Updated version to 5.6.13 (#35309)
+  Plugins and Integrations/docs/plugins/5.6 871637b5   Fix DeleteRequest / GetRequest / UpdateRequest / ExplainRequest validation for null and/or empty id/type (#35314)
   Plugins and Integrations/docs/plugins/6.0 0400d820   Docs: remove notes on sparsity. (#30905)
   Plugins and Integrations/docs/plugins/6.1 70b07aec   [Docs] Clarify multi match query field limit (#34801)
   Plugins and Integrations/docs/plugins/6.2 b292658d   [Docs] Clarify multi match query field limit (#34801)
   Plugins and Integrations/docs/plugins/6.3 ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
-  Plugins and Integrations/docs/plugins/6.4 f2b558da   Updated version to 6.4.3 (#35308)
-  Plugins and Integrations/docs/plugins/6.5 d396ac55   CCR/TEST: Add debug log to testFailOverOnFollower
-  Plugins and Integrations/docs/plugins/6.x 2f34b689   Add missing up-to-date configuration (#35255)
-  Plugins and Integrations/docs/plugins/master 5ae03195   Make version field names more meaningful  (#35334)
-  Python API/docs/python/master       19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
-  Ruby API/docs/ruby/master           19d6cf1b   [CCR] Change response classes to not use from Streamable. (#35085)
+  Plugins and Integrations/docs/plugins/6.4 4232e776   [Docs] Section header preceded by blank line (#34340)
+  Plugins and Integrations/docs/plugins/6.5 fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Plugins and Integrations/docs/plugins/6.x dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Plugins and Integrations/docs/plugins/master c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Python API/docs/python/master       c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Ruby API/docs/ruby/master           c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Stack Overview/docs/6.3             ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Stack Overview/docs/6.4             4232e776   [Docs] Section header preceded by blank line (#34340)
-  Stack Overview/docs/6.5             a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Stack Overview/docs/6.x             81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Stack Overview/docs/master          c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Stack Overview/docs/6.5             fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Stack Overview/docs/6.x             dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Stack Overview/docs/master          c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
   Stack Overview/x-pack/docs/6.3      ab90ed66   [DOCS] Add info on calendar vs fixed interval.  (#31638)
   Stack Overview/x-pack/docs/6.4      4232e776   [Docs] Section header preceded by blank line (#34340)
-  Stack Overview/x-pack/docs/6.5      a3b2c72f   watcher: Fix integration tests to ensure correct start/stop of Watcher (#35271)
-  Stack Overview/x-pack/docs/6.x      81bf5aab   [DOCS] Fix snippet response in parent aggregation
-  Stack Overview/x-pack/docs/master   c88b2d7e   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Stack Overview/x-pack/docs/6.5      fe988a2c   [DOCS] Cleans up monitoring configuration steps (#35111)
+  Stack Overview/x-pack/docs/6.x      dec500d7   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
+  Stack Overview/x-pack/docs/master   c9a84fe3   SQL: Handle null literal for AND and OR in `WHERE` (#35236)
 
 Repo: elasticsearch-hadoop
 --------------------------------------------------------------------------------
@@ -961,9 +961,9 @@ Repo: elasticsearch-net
 --------------------------------------------------------------------------------
   .NET API/docs/1.x                   cc8bc539   Updated paket.bootstrapper.exe to address TLS 1.0 and 1.1 deprecation (#3114)
   .NET API/docs/2.x                   75f94e65   bump to version 2.5.8
-  .NET API/docs/5.x                   675cd613   Do not always prefer a chop after ( for method invocations
-  .NET API/docs/6.x                   27b33c4a   Do not always prefer a chop after ( for method invocations
-  .NET API/docs/master                26b815d7   Do not always prefer a chop after ( for method invocations
+  .NET API/docs/5.x                   c3d8d916   Fix indendation in doc.cs files which are excluded from the formatter
+  .NET API/docs/6.x                   42414ec1   try/catch when attempting to deserialize ServerError from response
+  .NET API/docs/master                7f100af4   Merge branch 'fix/3378'
 
 Repo: elasticsearch-php
 --------------------------------------------------------------------------------
@@ -1009,19 +1009,19 @@ Repo: kibana
   Kibana Reference/docs/6.1           482c776a   remove var
   Kibana Reference/docs/6.2           ad1bb6cc   remove var
   Kibana Reference/docs/6.3           35daed56   [DOCS] Adds data visualizer restriction (#25399)
-  Kibana Reference/docs/6.4           e176661d   [DOCS] Adds data visualizer restriction (#25399)
-  Kibana Reference/docs/6.5           ea0f6f39   [DOCS] Adds early draft of Canvas docs (#25395)
-  Kibana Reference/docs/6.x           a40ff520   [DOCS] Adds early draft of Canvas docs (#25395)
-  Kibana Reference/docs/master        66ea68a3   Update clickOptionalAddNewButton method used in createIndexPattern (#25414)
+  Kibana Reference/docs/6.4           8a11b159   [DOCS] Updates information regarding usage of sample data indices (#25424)
+  Kibana Reference/docs/6.5           c17399c2   [DOCS] Updates information regarding usage of sample data indices (#25424)
+  Kibana Reference/docs/6.x           c997e788   [DOCS] Updates information regarding usage of sample data indices (#25424)
+  Kibana Reference/docs/master        0fcd9922   Upgrading grunt-contrib-watch (#22818)
   Kibana 사용자 가이드/docs/kr/5.3          1470baf2   painless reference didn't exist before 5.5
   Kibana 사용자 가이드/docs/kr/5.4          eba77124   painless reference didn't exist before 5.5
   Kibanaユーザーガイド/docs/jp/5.3           1470baf2   painless reference didn't exist before 5.5
   Kibanaユーザーガイド/docs/jp/5.4           eba77124   painless reference didn't exist before 5.5
   Stack Overview/docs/6.3             35daed56   [DOCS] Adds data visualizer restriction (#25399)
-  Stack Overview/docs/6.4             e176661d   [DOCS] Adds data visualizer restriction (#25399)
-  Stack Overview/docs/6.5             ea0f6f39   [DOCS] Adds early draft of Canvas docs (#25395)
-  Stack Overview/docs/6.x             a40ff520   [DOCS] Adds early draft of Canvas docs (#25395)
-  Stack Overview/docs/master          66ea68a3   Update clickOptionalAddNewButton method used in createIndexPattern (#25414)
+  Stack Overview/docs/6.4             8a11b159   [DOCS] Updates information regarding usage of sample data indices (#25424)
+  Stack Overview/docs/6.5             c17399c2   [DOCS] Updates information regarding usage of sample data indices (#25424)
+  Stack Overview/docs/6.x             c997e788   [DOCS] Updates information regarding usage of sample data indices (#25424)
+  Stack Overview/docs/master          0fcd9922   Upgrading grunt-contrib-watch (#22818)
 
 Repo: kibana-cn
 --------------------------------------------------------------------------------
@@ -1046,10 +1046,10 @@ Repo: logstash
   Logstash Reference/docs/6.1         a127e7ac   Add anchor for Drain PQ; remove PQ version numbers
   Logstash Reference/docs/6.2         891e88ed   back-port #9764
   Logstash Reference/docs/6.3         07ddd85e   CPM note
-  Logstash Reference/docs/6.4         4d344c60   Bump version to 6.4.4 (#10124)
-  Logstash Reference/docs/6.5         11e9b716   Incorporate review comments
-  Logstash Reference/docs/6.x         c7141f82   Incorporate review comments
-  Logstash Reference/docs/master      5a7220f9   Incorporate review comments
+  Logstash Reference/docs/6.4         ad91a8da   only start monitoring pipeline after valid license (#10106)
+  Logstash Reference/docs/6.5         4b3a404d   rename appsearch to elastic_app_search (#10129)
+  Logstash Reference/docs/6.x         d3414a2c   generalize method parameters
+  Logstash Reference/docs/master      dbf24128   generalize method parameters
   Logstash 참조/docs/kr/5.3             93a28254   [DOCS] Removed unnecessary X-Pack info
   Logstash 참조/docs/kr/5.4             e69f5910   [DOCS] Added index.x.asciidoc (#9079)
   Logstashリファレンス/docs/jp/5.3          93a28254   [DOCS] Removed unnecessary X-Pack info
@@ -1088,8 +1088,8 @@ Repo: stack-docs
 --------------------------------------------------------------------------------
   Getting Started/docs/en/6.3         4268dcf8   [DOCS] Adds rollup limitation
   Getting Started/docs/en/6.4         ee878009   [DOCS] Adds rollup limitation
-  Getting Started/docs/en/6.5         2dd37c53   [DOCS] Adds remote_monitoring_user to security tutorial
-  Getting Started/docs/en/6.x         2b9e3228   [DOCS] Adds remote_monitoring_user to security tutorial
+  Getting Started/docs/en/6.5         9a66e71f   [DOCS] Minimizes the duplicated monitoring information #138
+  Getting Started/docs/en/6.x         3fe93d34   [DOCS] Minimizes the duplicated monitoring information #138
   Getting Started/docs/en/master      21cf4aec   [DOCS] Minimizes the duplicated information in the production monitoring page
   Glossary/docs/en/master             21cf4aec   [DOCS] Minimizes the duplicated information in the production monitoring page
   Installation and Upgrade Guide/docs/5.0 cda8d4c4   [DOCS] Fixes broken link to Cloud documentation
@@ -1104,13 +1104,13 @@ Repo: stack-docs
   Installation and Upgrade Guide/docs/6.2 9e4a9cb2   [DOCS] Updated attributes file
   Installation and Upgrade Guide/docs/6.3 4268dcf8   [DOCS] Adds rollup limitation
   Installation and Upgrade Guide/docs/6.4 ee878009   [DOCS] Adds rollup limitation
-  Installation and Upgrade Guide/docs/6.5 2dd37c53   [DOCS] Adds remote_monitoring_user to security tutorial
-  Installation and Upgrade Guide/docs/6.x 2b9e3228   [DOCS] Adds remote_monitoring_user to security tutorial
+  Installation and Upgrade Guide/docs/6.5 9a66e71f   [DOCS] Minimizes the duplicated monitoring information #138
+  Installation and Upgrade Guide/docs/6.x 3fe93d34   [DOCS] Minimizes the duplicated monitoring information #138
   Installation and Upgrade Guide/docs/master 21cf4aec   [DOCS] Minimizes the duplicated information in the production monitoring page
   Stack Overview/docs/en/stack/6.3    4268dcf8   [DOCS] Adds rollup limitation
   Stack Overview/docs/en/stack/6.4    ee878009   [DOCS] Adds rollup limitation
-  Stack Overview/docs/en/stack/6.5    2dd37c53   [DOCS] Adds remote_monitoring_user to security tutorial
-  Stack Overview/docs/en/stack/6.x    2b9e3228   [DOCS] Adds remote_monitoring_user to security tutorial
+  Stack Overview/docs/en/stack/6.5    9a66e71f   [DOCS] Minimizes the duplicated monitoring information #138
+  Stack Overview/docs/en/stack/6.x    3fe93d34   [DOCS] Minimizes the duplicated monitoring information #138
   Stack Overview/docs/en/stack/master 21cf4aec   [DOCS] Minimizes the duplicated information in the production monitoring page
 
 Repo: swiftype
@@ -1161,13 +1161,13 @@ Repo: x-pack-elasticsearch
 --------------------------------------------------------------------------------
   Elasticsearch Reference/docs/en/5.4 885e19b2   [DOCS] Fix formatting error in Slack action
   Elasticsearch Reference/docs/en/5.5 9dec6759   [DOCS] Fix formatting error in Slack action
-  Elasticsearch Reference/docs/en/5.6 6a5b835e   [ML] Add missing return after calling listener (#4470)
+  Elasticsearch Reference/docs/en/5.6 21424366   Add x-pack bwc indices for 5.6.13
   Elasticsearch Reference/docs/en/6.0 cd533c10   [DOCS] Fix formatting error in Slack action
   Elasticsearch Reference/docs/en/6.1 525a52b8   [DOCS] Fix formatting error in Slack action
   Elasticsearch Reference/docs/en/6.2 334b6fed   [DOCS] Fix formatting error in Slack action
   X-Pack Reference for 6.0-6.2 and 5.x/docs/en/5.4 885e19b2   [DOCS] Fix formatting error in Slack action
   X-Pack Reference for 6.0-6.2 and 5.x/docs/en/5.5 9dec6759   [DOCS] Fix formatting error in Slack action
-  X-Pack Reference for 6.0-6.2 and 5.x/docs/en/5.6 6a5b835e   [ML] Add missing return after calling listener (#4470)
+  X-Pack Reference for 6.0-6.2 and 5.x/docs/en/5.6 21424366   Add x-pack bwc indices for 5.6.13
   X-Pack Reference for 6.0-6.2 and 5.x/docs/en/6.0 cd533c10   [DOCS] Fix formatting error in Slack action
   X-Pack Reference for 6.0-6.2 and 5.x/docs/en/6.1 525a52b8   [DOCS] Fix formatting error in Slack action
   X-Pack Reference for 6.0-6.2 and 5.x/docs/en/6.2 334b6fed   [DOCS] Fix formatting error in Slack action

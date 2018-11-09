@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -656,13 +692,13 @@ associated with it, defined in the body:</p><div class="pre_wrapper"><pre class=
 {
     "settings" : {
         "index" : {
-            "number_of_shards" : 3, <a id="CO160-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
-            "number_of_replicas" : 2 <a id="CO160-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
+            "number_of_shards" : 3, <a id="CO159-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+            "number_of_replicas" : 2 <a id="CO159-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
         }
     }
-}</pre></div><div class="console_widget" data-snippet="snippets/indices-create-index/2.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO160-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+}</pre></div><div class="console_widget" data-snippet="snippets/indices-create-index/2.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO159-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Default for <code class="literal">number_of_shards</code> is 5
-</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO160-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO159-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Default for <code class="literal">number_of_replicas</code> is 1 (ie one replica for each primary shard)
 </p></td></tr></table></div><p>or more simplified</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">PUT twitter
 {
@@ -825,6 +861,12 @@ the <code class="literal">wait_for_active_shards</code> value on all subsequent 
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

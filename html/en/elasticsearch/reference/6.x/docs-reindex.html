@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -1083,7 +1119,7 @@ the <code class="literal">conflicts</code> option to prevent reindex from aborti
           "id" : 36619,
           "type" : "transport",
           "action" : "indices:data/write/reindex",
-          "status" : {    <a id="CO37-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+          "status" : {    <a id="CO36-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
             "total" : 6154,
             "updated" : 3500,
             "created" : 0,
@@ -1108,7 +1144,7 @@ the <code class="literal">conflicts</code> option to prevent reindex from aborti
       }
     }
   }
-}</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO37-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+}</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO36-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 this object contains the actual status. It is identical to the response JSON
 except for the important addition of the <code class="literal">total</code> field. <code class="literal">total</code> is the total number
 of operations that the <code class="literal">_reindex</code> expects to perform. You can estimate the
@@ -1288,12 +1324,12 @@ to load only the existing data into the new index and rename any fields if neede
         "random_score" : {}
       }
     },
-    "sort": "_score"    <a id="CO38-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+    "sort": "_score"    <a id="CO37-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
   },
   "dest": {
     "index": "random_twitter"
   }
-}</pre></div><div class="console_widget" data-snippet="snippets/docs-reindex/32.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO38-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+}</pre></div><div class="console_widget" data-snippet="snippets/docs-reindex/32.json"></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO37-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 <code class="literal">_reindex</code> defaults to sorting by <code class="literal">_doc</code> so <code class="literal">random_score</code> will not have any
 effect unless you override the sort to <code class="literal">_score</code>.
 </p></td></tr></table></div></div><div class="navfooter"><span class="prev"><a href="docs-bulk.html">
@@ -1402,6 +1438,12 @@ effect unless you override the sort to <code class="literal">_score</code>.
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               

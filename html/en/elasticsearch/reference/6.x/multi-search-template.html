@@ -165,14 +165,14 @@
     <script type="text/javascript">
       var active;
       
-      active = Math.random() < 1
+      active = Math.random() < 0.1
       
       elasticApm.init({
       active: active,
-      serviceName: "elastic-co-frontend",
+      serviceName: "elastic-co-test",
       serverUrl: "https://elastic-co-apm-server.app.elstc.co"
       })
-      elasticApm.setTags({env:"production"});
+      elasticApm.setTags({env:"staging"});
       elasticApm.setInitialPageLoadName(window.location.href);
     </script>
     
@@ -235,6 +235,10 @@
                 
                   
                 
+                  
+                
+                  
+                
               <ul class="language-list">
                 
                   
@@ -277,6 +281,20 @@
                   
                   
                   <li><a href="/cn/" data-value="/cn/" id="locale-select">简体中文</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/es/" data-value="/es/" id="locale-select">Español</a></li>
+                  
+                
+                  
+                    
+                  
+                  
+                  <li><a href="/pt/" data-value="/pt/" id="locale-select">Português</a></li>
                   
                 
               </ul>
@@ -383,6 +401,10 @@
                 
                   
                 
+                  
+                
+                  
+                
                <ul class="language-list">
               
                 
@@ -425,6 +447,20 @@
                 
               
               <li><a class="" href="/cn/" data-value="/cn/">简体中文</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/es/" data-value="/es/">Español</a></li>
+              
+              
+                
+                  
+                
+              
+              <li><a class="" href="/pt/" data-value="/pt/">Português</a></li>
               
               
             </ul>
@@ -646,14 +682,14 @@ body\n</pre></div><p>The header part supports the same <code class="literal">ind
 <code class="literal">preference</code>, and <code class="literal">routing</code> options as the usual Multi Search API.</p><p>The body includes a search template body request and supports inline,
 stored and file templates. Here is an example:</p><div class="pre_wrapper"><pre class="programlisting prettyprint lang-js">$ cat requests
 {"index": "test"}
-{"source": {"query": {"match":  {"user" : "{{username}}" }}}, "params": {"username": "john"}} <a id="CO55-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
+{"source": {"query": {"match":  {"user" : "{{username}}" }}}, "params": {"username": "john"}} <a id="CO54-1"></a><span><img src="images/icons/callouts/1.png" alt="" /></span>
 {"source": {"query": {"{{query_type}}": {"name": "{{name}}" }}}, "params": {"query_type": "match_phrase_prefix", "name": "Smith"}}
 {"index": "_all"}
-{"id": "template_1", "params": {"query_string": "search for these words" }} <a id="CO55-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
+{"id": "template_1", "params": {"query_string": "search for these words" }} <a id="CO54-2"></a><span><img src="images/icons/callouts/2.png" alt="" /></span>
 
-$ curl -H "Content-Type: application/x-ndjson" -XGET localhost:9200/_msearch/template --data-binary "@requests"; echo</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO55-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+$ curl -H "Content-Type: application/x-ndjson" -XGET localhost:9200/_msearch/template --data-binary "@requests"; echo</pre></div><div class="calloutlist"><table border="0" summary="Callout list"><tr><td width="5%" valign="top" align="left"><p><a href="#CO54-1"><span><img src="images/icons/callouts/1.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Inline search template request
-</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO55-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
+</p></td></tr><tr><td width="5%" valign="top" align="left"><p><a href="#CO54-2"><span><img src="images/icons/callouts/2.png" alt="" /></span></a> </p></td><td valign="top" align="left"><p>
 Search template request based on a stored template
 </p></td></tr></table></div><p>The response returns a <code class="literal">responses</code> array, which includes the search template
 response for each search template request matching its order in the original
@@ -765,6 +801,12 @@ of the actual search response.</p></div><div class="navfooter"><span class="prev
                 
                   
                     <li><a href="/products/stack/alerting">Alerting</a></li>
+                  
+                
+              
+                
+                  
+                    <li><a href="/products/stack/canvas">Canvas</a></li>
                   
                 
               
