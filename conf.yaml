@@ -131,10 +131,7 @@ contents:
               -
                 repo:   docs
                 path:   shared/versions/stack/{version}.asciidoc
-
-    -   title:      Elastic Stack
-        sections:
-          - title:      Installation and Upgrade Guide
+          - title:      Elastic Installation and Upgrade Guide
             prefix:     en/elastic-stack
             current:    *stackcurrent
             index:      docs/en/install-upgrade/index.asciidoc
@@ -189,6 +186,9 @@ contents:
                 repo:   docs
                 path:   shared/attributes62.asciidoc
                 exclude_branches:   [ main, 7.16, 7.15, 7.14, 7.13, 7.12, 7.11, 7.10, 7.9, 7.8, 7.7, 7.6, 7.5, 7.4, 7.3, 7.2, 7.1, 7.0, 6.8, 6.7, 6.6, 6.5, 6.4, 6.3, 5.6, 5.5, 5.4, 5.3, 5.2, 5.1, 5.0 ]
+
+    -   title:      Elastic Stack
+        sections:
           - title:      Getting Started
             prefix:     en/elastic-stack-get-started
             current:    *stackcurrent
